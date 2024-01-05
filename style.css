@@ -1,1 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body{
+    background-color: #eee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.newspaper-container{
+    width: 700px;
+    background-color: white;
+    box-shadow: 15px 15px #dddd;
+    border-radius: 50px;
+    padding: 10em;
+}
+
+.date{
+    text-align: left;
+}
+
+header{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    /*background-color: blue;*/
+
+    
+}
+
+nav a{
+    color: #777;
+    text-decoration: none;
+    margin-left:-12px;
+    margin-right:7px;
+    /*background-color: lightgreen;*/
+    
+}
+
+nav{
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey; 
+   /* background-color: yellow;*/
+}
+
+main h2 h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+h5{
+    color:#dd3232;
+}
+
+main {
+    padding:2em;
+    width: 600px;
+    
+}
+
+.more-articles{
+    border-top: 2px solid grey; 
+   /* background-color: yellow; see padding and margin*/
+    padding: 10px;
+    margin: 5px;
+    width:700px;
+    display: inline-flex;
+}
+
+section{
+    /*display: inline-block;*/
+    /*background-color: red;to see the two different sections in order to figure inline-block*/
+   /* width:350px;*/
+    text-align: left;
+    padding: 20px;
+}
